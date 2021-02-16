@@ -1,16 +1,18 @@
+body {
+    background-color: #393E46;
+    height: 100vh;
+}
+
 .container {
     width: 70%;
     margin: auto;
     text-align: center;
+    height: 100vh;
 }
 
 .dice {
     text-align: center;
     display: inline-block;
-}
-
-body {
-    background-color: #393E46;
 }
 
 h1 {
@@ -22,7 +24,7 @@ h1 {
 }
 
 p {
-    font-size: 2rem;
+    font-size: 3rem;
     color: #4ECCA3;
     font-family: 'Indie Flower', cursive;
 }
@@ -32,13 +34,14 @@ img {
 }
 
 .btn {
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 button {
-    padding: 10px;
-    border-radius: 5px;
+    padding: 30px;
+    border-radius: 10px;
     color: red;
+    font-size: 3rem;
 }
 
 footer {
@@ -46,4 +49,21 @@ footer {
     color: #EEEEEE;
     text-align: center;
     font-family: 'Indie Flower', cursive;
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        /* background-color: yellow; */
+    }
+    .container {
+        width: 40%;
+        margin: auto;
+        text-align: center;
+    }
+    .dice {
+        display: block;
+    }
+    footer {
+        margin-top: 0;
+    }
 }
