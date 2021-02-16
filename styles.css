@@ -51,10 +51,7 @@ footer {
     font-family: 'Indie Flower', cursive;
 }
 
-@media screen and (max-width: 1000px) {
-    body {
-        /* background-color: yellow; */
-    }
+@media screen and (max-width: 500px) {
     .container {
         width: 40%;
         margin: auto;
