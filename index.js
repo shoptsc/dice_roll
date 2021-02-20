@@ -35,7 +35,7 @@ p1.addEventListener('click', () => {
     img1.setAttribute('src', image1)
     result1.push(number1)
     if (result1.length === 5) {
-        alert('you have reach our limit')
+        alert('you have reach your limit')
     }
 
 })
@@ -47,7 +47,7 @@ p2.addEventListener('click', () => {
     img2.setAttribute('src', image2);
     result2.push(number2)
     if (result2.length === 5) {
-        alert('you have reach our limit')
+        alert('you have reach your limit')
     }
 
 })
