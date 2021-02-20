@@ -36,8 +36,8 @@ p1.addEventListener('click', () => {
     result1.push(number1)
     if (result1.length === 5) {
         alert('you have reach your limit')
+        val1.textContent = number1 + ' ' + 'stop';
     }
-
 })
 
 p2.addEventListener('click', () => {
@@ -48,6 +48,7 @@ p2.addEventListener('click', () => {
     result2.push(number2)
     if (result2.length === 5) {
         alert('you have reach your limit')
+        val2.textContent = number2 + ' ' + 'stop';
     }
 
 })
